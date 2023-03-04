@@ -1,0 +1,405 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav-container {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    align-items: center;
+
+}
+
+.left {
+    display: flex;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.center {
+    display: flex;
+    gap: 40px;
+}
+
+.right {
+    display: flex;
+    gap: 40px;
+}
+
+.container {
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+    background-image: url(pizz.png);
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    font-family: 'Inter', sans-serif;
+    line-height: 60pt;
+    font-size: xx-large;
+    width: 600px;
+    padding-left: 20px;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+
+.line {
+    background-color: rgb(253, 57, 57);
+    height: 8px;
+    width: 400px;
+    position: absolute;
+    top: 280px;
+    left: 90px;
+}
+
+.para {
+    font-size: large;
+    width: 350px;
+    position: absolute;
+    top: 320px;
+    left: 90px;
+    line-height: 20pt;
+
+}
+
+.about-us {
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+    align-items: center;
+}
+
+.about-us span {
+    position: absolute;
+    top: 60px;
+    font-size: xx-large;
+    font-family: 'Inter', sans-serif;
+}
+
+.about-us>.line2 {
+    background-color: rgb(178, 40, 40);
+    height: 6px;
+    width: 300px;
+    position: absolute;
+    top: 110px;
+}
+
+.about-us>.story {
+    font-family: 'Inter', sans-serif;
+    width: 30%;
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    line-height: 18pt;
+    word-spacing: 0.1em;
+}
+
+.about-us>.line3 {
+    background-color: rgb(178, 40, 40);
+    height: 3px;
+    width: 320px;
+    top: 220px;
+    left: 150px;
+    position: absolute;
+}
+
+.about-us>.dough {
+    position: absolute;
+    top: 180px;
+    right: 150px;
+}
+
+.menu {
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+}
+
+.menu span {
+    position: absolute;
+    top: 60px;
+    font-size: xx-large;
+    font-family: 'Inter', sans-serif;
+    left: 600px;
+}
+
+.menu>.line4 {
+    background-color: rgb(178, 40, 40);
+    height: 6px;
+    width: 250px;
+    position: absolute;
+    top: 110px;
+    left: 520px;
+
+}
+
+.menu>.story1 {
+    font-family: 'Inter', sans-serif;
+    width: 65vw;
+    position: absolute;
+    top: 150px;
+    left: 160px;
+    line-height: 20pt;
+    word-spacing: 0.2em;
+}
+
+.menu-card {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 200px;
+    margin-top: 300px;
+}
+
+.card {
+
+    padding: 20px;
+    width: 220px;
+    position: relative;
+}
+
+.card p {
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    width: 200px;
+    align-self: center;
+}
+
+.card>img {
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    padding-left: 0;
+}
+
+.card>h3 {
+    position: absolute;
+    align-self: center;
+    left: 250px;
+    width: 150px;
+    color: goldenrod;
+}
+
+.find-us {
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+    align-items: center;
+}
+
+.find-us span {
+    position: absolute;
+    top: 480px;
+    font-size: xx-large;
+    font-family: 'Inter', sans-serif;
+    left: 580px;
+}
+
+.find-us>.line5 {
+    background-color: rgb(178, 40, 40);
+    height: 6px;
+    width: 250px;
+    position: absolute;
+    top: 530px;
+    left: 520px;
+}
+
+.find-us>.location {
+    font-family: 'Inter', sans-serif;
+    width: 400px;
+    position: absolute;
+    gap: 200px;
+    left: 150px;
+    margin-top: 700px;
+    left: 160px;
+    line-height: 20pt;
+    word-spacing: 0.2em;
+}
+
+.find-us>.map {
+    position: absolute;
+    top: 600px;
+    right: 150px;
+
+}
+
+.find-us>.address>span {
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    font-size: medium;
+    margin-top: 250px;
+    left: 200px;
+}
+
+.find-us>.address>img {
+    position: absolute;
+    background-color: white;
+    margin-top: 430px;
+    border-radius: 100%;
+    left: 160px;
+}
+
+.find-us>.number>span {
+    width: 120px;
+    font-family: 'Inter', sans-serif;
+    border: 1 px solid white;
+    position: absolute;
+    font-size: medium;
+    margin-top: 290px;
+    left: 200px;
+}
+
+.find-us>.number>img {
+    position: absolute;
+    background-color: white;
+    margin-top: 470px;
+    border-radius: 100px;
+    width: 25px;
+    left: 160px;
+}
+
+.contact {
+    font-family: 'Inter', sans-serif;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+    align-items: center;
+}
+
+.contact>img {
+    position: absolute;
+    top: 300px;
+    border-radius: 300px;
+}
+
+.contact>.right>.material-symbols-outlined {
+    position: absolute;
+    right: 450px;
+    top: 320px;
+}
+
+.contact>.right>.mail {
+    position: absolute;
+    right: 250px;
+    top: 320px;
+}
+
+.contact>.right>.call {
+    position: absolute;
+    right: 450px;
+    top: 360px;
+}
+
+.contact>.right>.call1 {
+    position: absolute;
+    right: 240px;
+    font-size: smaller;
+    top: 360px;
+}
+@media (max-width : 990px) {
+    .nav-container {
+        grid-template-columns: repeat(2,auto);
+
+    }
+    .container{
+        grid-template-columns: repeat(2,auto);
+
+    }
+    .about-us {
+        grid-template-columns:repeat(2,auto);
+    }
+    .menu{
+        grid-template-columns:repeat(2,auto);
+
+    }
+    .find-us{
+        grid-template-columns:repeat(2,auto);
+
+    }
+    .footer { 
+            grid-template-columns:repeat(2,auto);
+    }
+}
+
+@media (max-width : 800px) {
+    .nav-container {
+        grid-template-columns: repeat(2,auto);
+
+    }
+    .container{
+        grid-template-columns: repeat(2,auto);
+
+    }
+    .about-us {
+        grid-template-columns:repeat(2,auto);
+    }
+    .menu{
+        grid-template-columns:repeat(2,auto);
+
+    }
+    .find-us{
+        grid-template-columns:repeat(2,auto);
+
+    }
+    .footer { 
+            grid-template-columns:repeat(2,auto);
+    }
+}
+
+@media (max-width : 500px) {
+    .nav-container {
+        grid-template-columns: auto;
+        justify-items:center ;
+    }
+    .container {
+        grid-template-columns: auto;
+        justify-items:center ;
+    }
+    .about-us {
+        grid-template-columns: auto;
+        justify-items:center ;
+    }
+    .menu{
+        grid-template-columns: auto;
+        justify-items:center ;
+    }
+    .find-us{
+        grid-template-columns: auto;
+        justify-items:center ;
+    }
+
+    .footer{
+        grid-template-columns: auto;
+    }
+}
